@@ -1,0 +1,22 @@
+name: test
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python==3.9
+  - pip
+  - nb_conda
+  - jupyter
+  - pip:
+      - pandas
+      - seaborn
+      - yellowbrick
+      - shap
+      - feature-engine
+      - category-encoders
+      - scikit-learn
+      - xgboost
+      - catboost
+      - optuna
+      - darts
+      - openpyxl
